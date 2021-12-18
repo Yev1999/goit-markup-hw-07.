@@ -1,0 +1,17 @@
+.studio__nav {
+  color: var(--second-title-color);
+}
+
+.studio__footer {
+  color: var(--main-title-color);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: var(--time) var(--cubic);
+}

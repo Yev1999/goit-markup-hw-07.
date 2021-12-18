@@ -1,0 +1,53 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 0em;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.buton {
+  cursor: pointer;
+}
+
+body {
+  font-family: "roboto";
+  color: var(--main-text-color);
+}
+
+.head {
+  font-family: "roboto";
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.projects-list:htn-chil(4n) {
+  padding-right: 0;
+}
