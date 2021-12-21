@@ -6,7 +6,7 @@
   margin: -1px;
 }
 
-.section__services {
+.hero {
   text-align: center;
   background: var(--section-servicec-fon);
   background-image: linear-gradient(
@@ -23,7 +23,7 @@
   padding: 200px 0;
 }
 
-.section__title {
+.hero__title {
   width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -37,7 +37,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.section__btn {
+.hero__btn {
   border-radius: 4px;
   padding: 5px 32px;
   font-family: inherit;
@@ -50,8 +50,5 @@
   color: var(--main-btn-color);
   background: var(--hover-text);
   transition: background-color var(--time) var(--cubic);
-}
-
-.section__btn {
   cursor: pointer;
 }

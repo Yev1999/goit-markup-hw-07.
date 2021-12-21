@@ -22,7 +22,7 @@
   color: var(--main-title-color);
 }
 
-.icon__box {
+.work__box {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -32,18 +32,18 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.work__list {
+.work {
   display: flex;
 }
 
-.work__li {
+.work__item {
   width: 270px;
 }
-.work__li:not(:first-child) {
+.work__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.rules__title {
+.work__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -52,7 +52,7 @@
   color: var(--second-title-color);
   margin-bottom: 10px;
 }
-.rules__text {
+.work__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;

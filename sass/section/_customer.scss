@@ -1,13 +1,4 @@
-.customer__head {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--btn-text-color);
-  margin-bottom: 50px;
-}
-
-.customer__list {
+.customer {
   display: flex;
 }
 
@@ -21,16 +12,16 @@
   justify-content: center;
   color: #afb1b8;
   transition: color var(--time) var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--hover-text);
+    border: 1px solid var(--hover-text);
+  }
 }
 
 .customer__icon {
   fill: currentColor;
-}
-
-.customer__link:hover,
-.customer__link:focus {
-  color: var(--hover-text);
-  border: 1px solid var(--hover-text);
 }
 
 .customer__item:not(:last-child) {

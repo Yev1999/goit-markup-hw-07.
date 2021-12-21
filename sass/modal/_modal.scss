@@ -44,11 +44,11 @@
   background-color: #fff;
   transition: fill var(--time) var(--cubic);
   cursor: pointer;
-}
 
-.btn-close:hover,
-.btn-close:focus {
-  fill: var(--hover-text);
+  &:hover,
+  &:focus {
+    fill: var(--hover-text);
+  }
 }
 
 .close {
@@ -78,6 +78,15 @@
   color: #757575;
   cursor: pointer;
   transition: border-color var(--time) var(--cubic);
+
+  &:focus {
+    border-color: var(--hover-text);
+    outline: none;
+    box-shadow: none;
+  }
+  &:focus + .modal-svg {
+    fill: var(--hover-text);
+  }
 }
 
 .modal-form {
@@ -89,16 +98,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.modal-form-input:focus {
-  border-color: var(--hover-text);
-  outline: none;
-  box-shadow: none;
-}
-
-.modal-form-input:focus + .modal-svg {
-  fill: var(--hover-text);
 }
 
 .textarea-modal {
