@@ -180,3 +180,14 @@
   background-color: var(--hover-text);
   border: none;
 }
+
+// ..........Мобильное меню...........
+
+.mob--menu {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  // z-index: 5;
+}
